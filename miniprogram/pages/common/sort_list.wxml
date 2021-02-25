@@ -1,0 +1,13 @@
+<template name="sort_list">
+  <view class="sort-list">
+      <view class="sort"
+      bindtap="onOverallTag">{{sortSelected}}
+      <image src="/pages/images/1.png" 
+      style="width:20rpx;height:20rpx;"></image></view>
+      <view data-index="0"
+      bindtap="onTapTag" 
+      class="sort {{selected == 0?'sort-active':''}}">
+        销量最高
+      </view> 
+  </view>
+</template>

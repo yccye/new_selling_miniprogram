@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/TabPage/home_tab/home_tab",
+    "pages/TabPage/info_tab/info_tab",
+    "pages/Tool/tool_history/tool_history",
+    "pages/Tool/tool_bought/tool_bought"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "新零售智慧门店",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#FFD161",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/TabPage/home_tab/home_tab",
+        "iconPath": "images/8.png",
+        "selectedIconPath": "images/8.png",
+        "color": "white",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/TabPage/info_tab/info_tab",
+        "iconPath": "images/8.png",
+        "selectedIconPath": "images/8.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
