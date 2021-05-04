@@ -1,0 +1,50 @@
+<!--pages/about/about.wxml-->
+<!--pages/info/info.wxml-->
+<!--状态栏区域-->
+<view class="cu-timeline">
+  <view class="cu-time">历史购物信息</view>
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-green shadow-blur">
+      <text>22:22</text> 您到达了成都门店
+    </view>
+  </view>
+  <view class="cu-item text-red cuIcon-attentionforbidfill">
+    <view class="content bg-red shadow-blur">
+      23：22您离开了成都门店
+    </view>
+  </view>
+  <view class="cu-item text-grey cuIcon-evaluate_fill">
+    <view class="content bg-grey shadow-blur">
+
+    </view>
+  </view>
+  <view class="cu-item text-blue">
+    <view class="bg-blue content">
+      <text>20:00</text> 
+    </view>
+    <view class="bg-cyan content">
+      <text>10:00</text> 
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">06-17</view>
+  <view class="cu-item">
+    <view class="content">
+      <text>01:30</text> 
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">06-17</view>
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">上午</view>
+        <view class="cu-tag line-cyan">10:00</view>
+      </view>
+    </view>
+  </view>
+</view>
